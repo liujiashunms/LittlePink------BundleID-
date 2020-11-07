@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A4DC2EEF254D93B700F23FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2EEE254D93B700F23FB4 /* AppDelegate.swift */; };
 		A4DC2EF1254D93B700F23FB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2EF0254D93B700F23FB4 /* SceneDelegate.swift */; };
-		A4DC2EF3254D93B700F23FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2EF2254D93B700F23FB4 /* ViewController.swift */; };
 		A4DC2EF6254D93B700F23FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DC2EF4254D93B700F23FB4 /* Main.storyboard */; };
 		A4DC2EF9254D93B700F23FB4 /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2EF7254D93B700F23FB4 /* LittlePink.xcdatamodeld */; };
 		A4DC2EFB254D93B700F23FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DC2EFA254D93B700F23FB4 /* Assets.xcassets */; };
 		A4DC2EFE254D93B700F23FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DC2EFC254D93B700F23FB4 /* LaunchScreen.storyboard */; };
+		A4DC2F4F2555A9F800F23FB4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2F4E2555A9F700F23FB4 /* HomeVC.swift */; };
+		A4DC2F522555B1BE00F23FB4 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2F512555B1BE00F23FB4 /* FollowVC.swift */; };
+		A4DC2F552555B1D600F23FB4 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2F542555B1D600F23FB4 /* DiscoveryVC.swift */; };
+		A4DC2F582555B1E800F23FB4 /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2F572555B1E800F23FB4 /* NearByVC.swift */; };
+		A4DC2F5B2555B35D00F23FB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC2F5A2555B35D00F23FB4 /* Constants.swift */; };
 		C65B6BC3AA14E2E812BC4EDF /* Pods_LittlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469E4D499341E84F5EB3500A /* Pods_LittlePink.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,12 +27,16 @@
 		A4DC2EEB254D93B700F23FB4 /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DC2EEE254D93B700F23FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4DC2EF0254D93B700F23FB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4DC2EF2254D93B700F23FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4DC2EF5254D93B700F23FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4DC2EF8254D93B700F23FB4 /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
 		A4DC2EFA254D93B700F23FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4DC2EFD254D93B700F23FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4DC2EFF254D93B700F23FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DC2F4E2555A9F700F23FB4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A4DC2F512555B1BE00F23FB4 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		A4DC2F542555B1D600F23FB4 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		A4DC2F572555B1E800F23FB4 /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
+		A4DC2F5A2555B35D00F23FB4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CB0606F0B8DC449C9CB5811F /* Pods-LittlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +58,6 @@
 				CB0606F0B8DC449C9CB5811F /* Pods-LittlePink.debug.xcconfig */,
 				07EA8339D347084F6DC44EA7 /* Pods-LittlePink.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,14 +92,26 @@
 			children = (
 				A4DC2EEE254D93B700F23FB4 /* AppDelegate.swift */,
 				A4DC2EF0254D93B700F23FB4 /* SceneDelegate.swift */,
-				A4DC2EF2254D93B700F23FB4 /* ViewController.swift */,
 				A4DC2EF4254D93B700F23FB4 /* Main.storyboard */,
+				A4DC2F5A2555B35D00F23FB4 /* Constants.swift */,
+				A4DC2F5D2555B57A00F23FB4 /* Home */,
 				A4DC2EFA254D93B700F23FB4 /* Assets.xcassets */,
 				A4DC2EFC254D93B700F23FB4 /* LaunchScreen.storyboard */,
 				A4DC2EFF254D93B700F23FB4 /* Info.plist */,
 				A4DC2EF7254D93B700F23FB4 /* LittlePink.xcdatamodeld */,
 			);
 			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		A4DC2F5D2555B57A00F23FB4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A4DC2F542555B1D600F23FB4 /* DiscoveryVC.swift */,
+				A4DC2F512555B1BE00F23FB4 /* FollowVC.swift */,
+				A4DC2F572555B1E800F23FB4 /* NearByVC.swift */,
+				A4DC2F4E2555A9F700F23FB4 /* HomeVC.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,10 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DC2EF3254D93B700F23FB4 /* ViewController.swift in Sources */,
+				A4DC2F582555B1E800F23FB4 /* NearByVC.swift in Sources */,
 				A4DC2EEF254D93B700F23FB4 /* AppDelegate.swift in Sources */,
+				A4DC2F4F2555A9F800F23FB4 /* HomeVC.swift in Sources */,
+				A4DC2F522555B1BE00F23FB4 /* FollowVC.swift in Sources */,
 				A4DC2EF1254D93B700F23FB4 /* SceneDelegate.swift in Sources */,
 				A4DC2EF9254D93B700F23FB4 /* LittlePink.xcdatamodeld in Sources */,
+				A4DC2F552555B1D600F23FB4 /* DiscoveryVC.swift in Sources */,
+				A4DC2F5B2555B35D00F23FB4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3R9W3ZDBN;
 				INFOPLIST_FILE = LittlePink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3R9W3ZDBN;
 				INFOPLIST_FILE = LittlePink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
